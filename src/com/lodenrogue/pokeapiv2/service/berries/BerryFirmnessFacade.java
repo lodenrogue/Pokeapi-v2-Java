@@ -1,0 +1,18 @@
+package com.lodenrogue.pokeapiv2.service.berries;
+
+import com.lodenrogue.pokeapiv2.model.berries.BerryFirmness;
+import com.lodenrogue.pokeapiv2.service.AbstractFacade;
+import com.lodenrogue.pokeapiv2.service.ResourceAddress;
+
+public class BerryFirmnessFacade extends AbstractFacade<BerryFirmness> {
+
+	public BerryFirmnessFacade() {
+		super(BerryFirmness.class);
+	}
+
+	@Override
+	protected String getAddress() {
+		return ResourceAddress.BERRY_FIRMNESS_URL;
+	}
+
+}
