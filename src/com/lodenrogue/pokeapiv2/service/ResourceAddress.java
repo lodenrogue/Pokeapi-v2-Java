@@ -2,7 +2,7 @@ package com.lodenrogue.pokeapiv2.service;
 
 public class ResourceAddress {
 
-	public static final String BASE_URL = "http://pokeapi.co/api/v2";
+	public static final String BASE_URL = "https://pokeapi.co/api/v2";
 
 	public static final String LANGUAGE_URL = BASE_URL + "/language";
 
